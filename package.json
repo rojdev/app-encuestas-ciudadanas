@@ -1,0 +1,43 @@
+{
+  "name": "sistema-encuesta",
+  "version": "0.0.1",
+  "description": "Sistema para la ayuda ciudadana de la alcaldia de Paez en la gestion de Rafael Torrealba",
+  "productName": "Sistema para recolección de información",
+  "author": "rojdev <rojdev4@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.6",
+    "axios": "^1.2.1",
+    "dayjs": "^1.11.11",
+    "echarts": "^5.4.3",
+    "flowbite": "^2.5.2",
+    "pinia": "^2.0.11",
+    "quasar": "^2.12.7",
+    "vue": "^3.0.0",
+    "vue-echarts": "^6.2.3",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.9.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.47",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.4.14",
+    "vite-plugin-checker": "^0.6.4"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
